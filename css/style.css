@@ -336,7 +336,9 @@ hr {
     flex-basis: 100%;
   }
 }
-
+.menu-icon{
+  display:flex;
+}
 .menu-icon span {
   color: black;
   float: right;
