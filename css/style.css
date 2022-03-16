@@ -175,6 +175,9 @@ p {
   .card-profile{
     gap:10px;
   }
+  .header-nav ul {
+    display: none;
+  }
 }
 @media screen and (max-width: 600px) {
   .about-image img {
@@ -334,8 +337,8 @@ hr {
   }
 }
 
-.menu-icon {
-  color: white;
+.menu-icon span {
+  color: black;
   float: right;
   font-size: 25px;
   padding: 21px 0;
@@ -344,12 +347,8 @@ hr {
 
 @media all and (max-width: 670px) {
   /* Tambahkan CSS untuk header-right */
-  .header-right {
-    display: none;
-  }
+ 
 
   /* Tambahkan CSS untuk menu-icon */
-  .menu-icon {
-    display: block;
-  }
+  
 }
