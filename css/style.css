@@ -150,7 +150,8 @@ p {
 .card-profile {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 200px;
-  margin: auto;
+  margin: 0 auto;
+  justify-content: center;
   text-align: center;
 }
 
@@ -171,6 +172,8 @@ p {
     flex-wrap: wrap;
     gap: 20px;
   }
+  .card-profile{
+    gap:10px;
 }
 @media screen and (max-width: 600px) {
   .about-image img {
