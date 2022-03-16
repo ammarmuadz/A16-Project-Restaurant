@@ -179,7 +179,7 @@ p {
     display: none;
   }
   .menu-icon span{
-    display:block;}
+    display:inline-block;}
 }
 @media screen and (max-width: 600px) {
   .about-image img {
@@ -347,10 +347,4 @@ hr {
   display: none;
 }
 
-@media all and (max-width: 670px) {
-  /* Tambahkan CSS untuk header-right */
- 
 
-  /* Tambahkan CSS untuk menu-icon */
-  
-}
