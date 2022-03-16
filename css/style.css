@@ -178,6 +178,8 @@ p {
   .header-nav ul {
     display: none;
   }
+  .menu-icon span{
+    display:block;}
 }
 @media screen and (max-width: 600px) {
   .about-image img {
