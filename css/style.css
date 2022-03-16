@@ -178,7 +178,7 @@ p {
   .header-nav ul {
     display: none;
   }
-  .menu-icon span {
+  .menu-icon  {
     display:block;
   }
 }
@@ -340,7 +340,7 @@ hr {
   }
 }
 
-.menu-icon span {
+.menu-icon {
   color: black;
   float: right;
   font-size: 25px;
